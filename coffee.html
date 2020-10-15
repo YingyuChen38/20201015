@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <style type="text/css">
+      a {
+         text-decoration:none;
+      }
+   </style>
+  </head>
+
+  <body>
+    <div data-role="page" id="menu">
+      <div data-role="header">
+         <a
+          href="./index.html"
+          class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power"
+          >Back</a
+        >
+        <h1>Coffee</h1>
+      </div>
+      <!-- /header -->
+
+      <div role="main" class="ui-content">
+        <ul data-role="listview" data-inset="true">
+          <li>
+            <a href="#">
+              <img src="./coffee/coffee-black.jpg" />  
+              <h2>Black</h2>
+              <span class="ui-li-count">100</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./coffee/coffee-milk.jpg" />  
+              <h2>Cappuccino</h2>
+              <span class="ui-li-count">120</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./coffee/coffee-moca.jpg" />  
+              <h2>Moca</h2>
+              <span class="ui-li-count">150</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer" data-position="fixed">
+        <h4>&copy; 2020 All rights reversed</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>
